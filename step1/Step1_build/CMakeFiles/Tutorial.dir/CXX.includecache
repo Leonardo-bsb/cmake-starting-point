@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leonardo/linguagens/cmake/starting_point/tutorial.cxx
+TutorialConfig.h
+/home/leonardo/linguagens/cmake/starting_point/TutorialConfig.h
+cmath
+-
+cstdlib
+-
+iostream
+-
+string
+-
+
+TutorialConfig.h
+
