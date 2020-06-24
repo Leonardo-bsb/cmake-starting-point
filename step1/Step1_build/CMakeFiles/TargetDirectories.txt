@@ -1,3 +1,6 @@
-/home/leonardo/linguagens/cmake/starting_point/Step1_build/CMakeFiles/rebuild_cache.dir
-/home/leonardo/linguagens/cmake/starting_point/Step1_build/CMakeFiles/Tutorial.dir
-/home/leonardo/linguagens/cmake/starting_point/Step1_build/CMakeFiles/edit_cache.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/CMakeFiles/rebuild_cache.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/CMakeFiles/Tutorial.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/CMakeFiles/edit_cache.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/MathFunctions/CMakeFiles/rebuild_cache.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/MathFunctions/CMakeFiles/edit_cache.dir
