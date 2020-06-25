@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo/linguagens/cmake/cmake-starting-point/step1
+CMAKE_SOURCE_DIR = /home/leo/linguagens/cmake/cmake-starting-point/step3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build
+CMAKE_BINARY_DIR = /home/leo/linguagens/cmake/cmake-starting-point/step3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/CMakeFiles /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/MathFunctions/CMakeFiles/progress.marks
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build/CMakeFiles 0
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/leo/linguagens/cmake/cmake-starting-point/step3/build/CMakeFiles /home/leo/linguagens/cmake/cmake-starting-point/step3/build/MathFunctions/CMakeFiles/progress.marks
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo/linguagens/cmake/cmake-starting-point/step3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/clean
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/preinstall
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/preinstall
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MathFunctions/CMakeFiles/MathFunctions.dir/rule:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
 # fast build rule for target.
 MathFunctions/fast:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
 mysqrt.o: mysqrt.cxx.o
@@ -131,7 +131,7 @@ mysqrt.o: mysqrt.cxx.o
 
 # target to build an object file
 mysqrt.cxx.o:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
 .PHONY : mysqrt.cxx.o
 
 mysqrt.i: mysqrt.cxx.i
@@ -140,7 +140,7 @@ mysqrt.i: mysqrt.cxx.i
 
 # target to preprocess a source file
 mysqrt.cxx.i:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
 .PHONY : mysqrt.cxx.i
 
 mysqrt.s: mysqrt.cxx.s
@@ -149,7 +149,7 @@ mysqrt.s: mysqrt.cxx.s
 
 # target to generate assembly for a file
 mysqrt.cxx.s:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(MAKE) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
 .PHONY : mysqrt.cxx.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/leo/linguagens/cmake/cmake-starting-point/step3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

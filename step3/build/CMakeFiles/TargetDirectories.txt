@@ -1,0 +1,3 @@
+/home/leo/linguagens/cmake/cmake-starting-point/step3/build/CMakeFiles/rebuild_cache.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step3/build/CMakeFiles/Tutorial.dir
+/home/leo/linguagens/cmake/cmake-starting-point/step3/build/CMakeFiles/edit_cache.dir

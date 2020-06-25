@@ -6,5 +6,5 @@ CXX_FLAGS = -g3   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/leo/linguagens/cmake/cmake-starting-point/step1/Step1_build 
+CXX_INCLUDES = -I/home/leo/linguagens/cmake/cmake-starting-point/step3/build 
 
